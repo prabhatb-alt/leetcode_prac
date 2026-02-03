@@ -27,7 +27,7 @@ class Solution(object):
 # Space Complexity: O(n)
 """
 
-# Optimized Approach
+# Smaller Approach
 class Solution(object):
     def containsDuplicate(self, nums):
         if len(nums) != len(set(nums)):
