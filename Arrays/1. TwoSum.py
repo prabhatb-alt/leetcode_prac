@@ -29,9 +29,9 @@ class Solution(object):
         """
         dic = {}
         for i in range(len(nums)):
-            check = target - nums[i]
-            if check in dic:
-                return [dic[check], i]
+            ch = target - nums[i]
+            if ch in dic:
+                return [dic[ch], i]
             dic[nums[i]] = i
 
 # Time Complexity: O(n): Efficient for larger inputs
